@@ -1,9 +1,15 @@
 body {
-  background-color: powderblue;
+  background-color: #000000;
 }
 h1 {
-  color: blue;
+  color: #FFFFFF;
+}
+h2 {
+  color: #FFFFFF;
+}
+h3 {
+  color: #FFFFFF;
 }
 p {
-  color: red;
+  color: #FFFFFF;
 }
