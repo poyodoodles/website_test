@@ -72,6 +72,21 @@ body {
   border-right: 10px solid #aa4000;
 }
 
+.blogs{
+  background: #aa5000;
+  height: 400px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  font-family: sans-serif;
+  font-display: swap;
+  border-top: 1px solid #aa5000;
+  border-bottom: 1px solid #aa5000;
+  border-left: 10px solid #aa5000;
+  border-right: 10px solid #aa5000;
+  border-radius: 16px;
+}
+
 .left {
     text-align: left;
 }
@@ -86,6 +101,7 @@ h1 {
 h2 {
   color: #ffffff;
   font-size: 40px;
+  font-family: sans-serif;
   line-height: 25%;
 }
 h3 {
