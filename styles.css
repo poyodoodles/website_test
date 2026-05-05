@@ -50,8 +50,7 @@ body {
 .section3{
   background: #aa3000;
   align-items: center;
-  justify-content: space-between;
-  display: flex;
+  justify-content: left;
   font-family: sans-serif;
   font-display: swap;
   border-top: 4px solid #aa3000;
@@ -62,9 +61,8 @@ body {
 
 .section4{
   background: #aa4000;
-  align-items: center;
-  justify-content: space-between;
-  display: flex;
+  align-items: left;
+  justify-content: left;
   font-family: sans-serif;
   font-display: swap;
   border-top: 1px solid #aa4000;
@@ -127,27 +125,46 @@ button{
   cursor: pointer;
 }
 
-.collapsible {
-  background-color: #00000000;
-  color: #444;
+.collapsibleCV {
   cursor: pointer;
   width: 70px;
   border: none;
-  align-items: center;
-  justify-content: center;
-  display: flex;
   outline: none;
 }
 
-.active, .collapsible:hover {
-  background-color: #cccccc42;
+.activeCV, .collapsibleCV:hover {
+  background-color: #cccccc00;
   align-items: center;
   display: flex;
-  
+  width: 80px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.collapsiblePS {
+  cursor: pointer;
+  width: 70px;
+  border: none;
+  outline: none;
+}
+
+.activePS, .collapsiblePS:hover {
+  background-color: #cccccc00;
+  align-items: center;
+  display: flex;
+  width: 510px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .content {
-  padding: 0 18px;
+  padding: 10px;
+  font-family: sans-serif;
+  font-display: swap;
   display: none;
-  background-color: #f1f1f1;
+  background-color: #000000;
+  border-left: 20px solid #000000;
+  border-right: 20px solid #000000;
 }
