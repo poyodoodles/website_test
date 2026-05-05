@@ -40,6 +40,7 @@ body {
   background: #aa2000;
   font-family: sans-serif;
   font-display: swap;
+  text-align: left;
   border-top: 0px solid #aa2000;
   border-bottom: 20px solid #aa2000;
   border-left: 10px solid #aa2000;
@@ -91,7 +92,7 @@ body {
     text-align: left;
 }
 .right {
-    text-align: right;
+  text-align: right;
 }
 
 h1 {
@@ -118,4 +119,35 @@ p {
 p1 {
   color: #ffffff;
   font-size: 12px;
+}
+
+button{
+  background: #ffffff00;
+  border: none;
+  cursor: pointer;
+}
+
+.collapsible {
+  background-color: #00000000;
+  color: #444;
+  cursor: pointer;
+  width: 70px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  outline: none;
+}
+
+.active, .collapsible:hover {
+  background-color: #cccccc42;
+  align-items: center;
+  display: flex;
+  
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  background-color: #f1f1f1;
 }
