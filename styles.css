@@ -115,7 +115,7 @@ h1 {
 }
 
 h2 {
-  color: #aa0000;
+  color: #ffffff;
   font-size: 6vw;
   font-family: sans-serif;
   line-height: 25%;
@@ -131,11 +131,6 @@ h4 {
   font-size: 1.8vw;
   font-family: sans-serif;
   line-height: 1px;
-}
-
-h6 {
-  color: #ffffff;
-  font-size: 0px;
 }
 
 p {
@@ -247,8 +242,9 @@ button{
   background: #aa6000;
   padding: 10px;
   border-radius: 8px;
-  text-align: center;
+  text-align: left;
   position: relative;
+  border-top: 0px;
 }
 
 .mySlides {
@@ -289,8 +285,10 @@ button{
   font-family: sans-serif;
   bottom: 8px;
   width: 100%;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
+  border-left: 20px solid #aa6000;
+  border-right: 20px solid #aa6000;
 }
 
 .blog {
