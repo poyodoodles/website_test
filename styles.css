@@ -16,9 +16,9 @@ body {
   background-color: #aa0000;
   font-family: sans-serif;
   font-display: swap;
+  width: 100%;
   align-items: left;
   justify-content: left;
-  display: block;
   border-left: 40px solid #aa0000;
   border-right: 40px solid #aa0000;
   border-top: 20px solid #aa0000;
@@ -110,25 +110,25 @@ body {
 
 h1 {
   color: #ffffff;
-  font-size: 70px;
+  font-size: 11vw;
   line-height: 0px;
 }
 
 h2 {
   color: #aa0000;
-  font-size: 40px;
+  font-size: 6vw;
   font-family: sans-serif;
   line-height: 25%;
 }
 
 h3 {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 3vw;
   line-height: 5px;
 }
 
 h4 {
-  font-size: 17px;
+  font-size: 1.8vw;
   font-family: sans-serif;
   line-height: 1px;
 }
@@ -137,12 +137,14 @@ h6 {
   color: #ffffff;
   font-size: 0px;
 }
+
 p {
   color: #ffffff;
+  font-size: 1.5vw;
 }
 p1 {
   color: #ffffff;
-  font-size: 12px;
+  font-size: 1.6vw;
 }
 
 button{
@@ -153,7 +155,6 @@ button{
 
 .collapsiblePygame {
   cursor: pointer;
-  width: 70px;
   border: none;
   outline: none;
 }
@@ -162,7 +163,7 @@ button{
   background-color: #cccccc00;
   align-items: center;
   display: flex;
-  width: 190px;
+  width: 20%;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -170,7 +171,6 @@ button{
 
 .collapsibleUE {
   cursor: pointer;
-  width: 70px;
   border: none;
   outline: none;
 }
@@ -179,7 +179,7 @@ button{
   background-color: #cccccc00;
   align-items: center;
   display: flex;
-  width: 300px;
+  width: 32%;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -187,7 +187,6 @@ button{
 
 .collapsibleParticles {
   cursor: pointer;
-  width: 70px;
   border: none;
   outline: none;
 }
@@ -196,7 +195,7 @@ button{
   background-color: #cccccc00;
   align-items: center;
   display: flex;
-  width: 220px;
+  width: 23%;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -204,7 +203,6 @@ button{
 
 .collapsibleCV {
   cursor: pointer;
-  width: 70px;
   border: none;
   outline: none;
 }
@@ -213,7 +211,7 @@ button{
   background-color: #cccccc00;
   align-items: center;
   display: flex;
-  width: 100px;
+  width: 11%;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -221,7 +219,6 @@ button{
 
 .collapsiblePS {
   cursor: pointer;
-  width: 70px;
   border: none;
   outline: none;
 }
@@ -230,7 +227,7 @@ button{
   background-color: #cccccc00;
   align-items: center;
   display: flex;
-  width: 410px;
+  width: 43%;
   align-items: center;
   justify-content: center;
   display: flex;
