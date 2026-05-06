@@ -71,21 +71,6 @@ body {
   border-right: 10px solid #aa4000;
 }
 
-.blogs{
-  background: #aa5000;
-  height: 400px;
-  align-items: center;
-  justify-content: space-between;
-  display: flex;
-  font-family: sans-serif;
-  font-display: swap;
-  border-top: 1px solid #aa5000;
-  border-bottom: 1px solid #aa5000;
-  border-left: 10px solid #aa5000;
-  border-right: 10px solid #aa5000;
-  border-radius: 16px;
-}
-
 .left {
     text-align: left;
 }
@@ -153,7 +138,7 @@ button{
   background-color: #cccccc00;
   align-items: center;
   display: flex;
-  width: 510px;
+  width: 380px;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -167,4 +152,63 @@ button{
   background-color: #000000;
   border-left: 20px solid #000000;
   border-right: 20px solid #000000;
+}
+
+.slideshow-container {
+  background: #aa6000;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 8px 12px;
+  background: #ffffff00;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 18px;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #00000050;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  font-family: sans-serif;
+  bottom: 8px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog {
+  display: none;
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
