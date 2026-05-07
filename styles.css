@@ -16,7 +16,6 @@ body {
   background-color: #aa0000;
   font-family: sans-serif;
   font-display: swap;
-  width: 100%;
   align-items: left;
   justify-content: left;
   border-left: 40px solid #aa0000;
@@ -124,6 +123,7 @@ h2 {
 h3 {
   color: #ffffff;
   font-size: 3vw;
+  font-family: sans-serif;
   line-height: 5px;
 }
 
@@ -175,6 +175,22 @@ button{
   align-items: center;
   display: flex;
   width: 32%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.collapsibleB {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.activeCV, .collapsibleB:hover {
+  background-color: #cccccc00;
+  align-items: center;
+  display: flex;
+  width: 24%;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -234,15 +250,12 @@ button{
   font-display: swap;
   display: none;
   background-color: #000000;
-  border-left: 20px solid #000000;
-  border-right: 20px solid #000000;
 }
 
 .slideshow-container {
   background: #aa6000;
   padding: 10px;
   border-radius: 8px;
-  text-align: left;
   position: relative;
   border-top: 0px;
 }
@@ -285,8 +298,6 @@ button{
   font-family: sans-serif;
   bottom: 8px;
   width: 100%;
-  align-items: left;
-  justify-content: left;
   border-left: 20px solid #aa6000;
   border-right: 20px solid #aa6000;
 }
@@ -298,4 +309,9 @@ button{
   padding: 8px 12px;
   position: absolute;
   top: 0;
+}
+
+video {
+  width: 100%;
+  height: auto;
 }
