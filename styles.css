@@ -232,12 +232,13 @@ button{
   cursor: pointer;
   border: none;
   outline: none;
+  display: none;
 }
 
 .activePS, .collapsiblePS:hover {
   background-color: #cccccc00;
   align-items: center;
-  display: flex;
+  display: none;
   width: 43%;
   align-items: center;
   justify-content: center;
@@ -296,8 +297,11 @@ button{
   font-size: 15px;
   padding: 8px 12px;
   font-family: sans-serif;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  display: block;
   bottom: 8px;
-  width: 100%;
   border-left: 20px solid #aa6000;
   border-right: 20px solid #aa6000;
 }
